@@ -6,4 +6,4 @@ before_install:
 - bin/dev build
 - bin/dev dbreset
 script:
-- manage.py test
+- bin/dev test
